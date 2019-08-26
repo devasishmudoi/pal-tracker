@@ -52,7 +52,7 @@ jobs:
             cd $EXTRACT_DEST
 
             cf login -a $CF_API -u "$CF_USERNAME" -p "$CF_PASSWORD" -o "$CF_ORG" -s "$CF_SPACE_REVIEW"
-            cf push -f manifest-$ENVIRONMENT.yml
+            cf push -f manifest-review.yml
 
   deployToProd:
     docker:
@@ -86,7 +86,7 @@ jobs:
             cd $EXTRACT_DEST
 
             cf login -a $CF_API -u "$CF_USERNAME" -p "$CF_PASSWORD" -o "$CF_ORG" -s "$CF_SPACE_PROD"
-            cf push -f manifest-$ENVIRONMENT.yml
+            cf push -f manifest-production.yml
 
 workflows:
   version: 2
