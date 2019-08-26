@@ -5,4 +5,4 @@ applications:
   routes:
   - route : https://pal-tracker-relaxed-rateldshttdgdfg.cfapps.io
   env:
-    WELCOME_MESSAGE: Hello from manifest
+    WELCOME_MESSAGE: Hello from production
