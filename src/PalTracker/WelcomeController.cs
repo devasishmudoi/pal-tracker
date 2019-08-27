@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace PalTracker
 {
     [Route("/")]
-    public class WelcomeController:ControllerBase
+    public class WelcomeController : ControllerBase
     {
         private readonly WelcomeMessage _message;
 
@@ -15,5 +15,4 @@ namespace PalTracker
             _message = message;
         }
     }
-
 }
