@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\databases",
+    "\\databases\\tracker",
+    "\\databases\\tracker\\migrations",
+    "\\scripts"
+  ],
+  "SelectedNode": "\\scripts\\migrate-databases.sh",
+  "PreviewInSolutionExplorer": false
+}

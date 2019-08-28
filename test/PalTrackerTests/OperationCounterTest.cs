@@ -19,10 +19,10 @@ namespace PalTrackerTests
             var exepectedCounts = new Dictionary<TrackedOperation, int>
             {
                 {TrackedOperation.Create, 0},
-                {TrackedOperation.Read, 3},
-                {TrackedOperation.List, 1},
-                {TrackedOperation.Update, 7},
-                {TrackedOperation.Delete, 3}
+                {TrackedOperation.Read, 1},
+                {TrackedOperation.List, 2},
+                {TrackedOperation.Update,3},
+                {TrackedOperation.Delete, 4}
             };
 
             foreach (var entry in exepectedCounts)
